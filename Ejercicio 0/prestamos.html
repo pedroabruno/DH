@@ -2,10 +2,14 @@
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-<link rel="stylesheet" type="text/css" href="estilo.css">
+<style>
+	.button { 
+		color: white !important;
+		background-color: rgb(0, 102, 255);
+    }
+</style>
 <script type="text/javascript" src="funciones.js"></script>
 <script type="text/javascript"> window.onload = cargarSelect(); </script>
-
 <html lang="en">
 	<head>
 		<title>PRESTAMOS</title>
@@ -30,8 +34,8 @@
 				<input class="form-control" id="tazaInteres" placeholder="Ingrese Taza de Interes">
 			</div>
 			<div class="form-group">
-				<button type="button" onclick="calcular()">Calcular</button>
-				<button type="button" onclick="borrar()">Borrar</button>
+				<button type="button" onclick="calcular()" class="button">Calcular</button>
+				<button type="button" onclick="borrar()" class="button">Borrar</button>
 			</div>
 			<div class="form-group">
 				<label>Cuota mensual</label>
