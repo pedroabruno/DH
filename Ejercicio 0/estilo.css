@@ -1,46 +1,16 @@
-<!DOCTYPE html>
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-<script type="text/javascript" src="funciones.js"></script>
-<script type="text/javascript"> window.onload = cargarSelect(); </script>
-<html lang="en">
-	<head>
-		<title>PRESTAMOS</title>
-		<meta charset="utf-8">
-		<meta name="viewport" content="width=device-width, initial-scale=1">
-	</head>
-	<body>
-		<div class="container-fluid">
-			<h2><font color="#0066aa">C&aacutelculo de pr&eacutestamos</font></h1>
-		</div>
-		<form>
-			<div class="form-group">
-				<label>Importe</label>
-				<input class="form-control" id="importe" placeholder="Ingrese Importe">
-			</div>
-			<div class="form-group">
-				<label>Provincia</label>
-				<select class="form-control" id="provincia"></select>
-			</div>
-			<div class="form-group">
-				<label>Taza de inter&eacutes</label>
-				<input class="form-control" id="tazaInteres" placeholder="Ingrese Taza de Interes">
-			</div>
-			<div class="form-group">
-				<button type="button" onclick="calcular()">Calcular</button>
-				<button type="button" onclick="borrar()">Borrar</button>
-			</div>
-			<div class="form-group">
-				<label>Cuota mensual</label>
-				<input class="form-control" id="cuotaMensual">
-			</div>
-			<div class="form-group">
-				<label>Total a pagar</label>
-				<input class="form-control" id="totalAPagar">
-			</div>
-		</form>	
-	</body>
-	<script type="text/JavaScript">
-  </script>
-</html>
+<style>      
+  	.navbar a {
+        padding: 0px;
+    }
+    .navbar a.active {
+    	background-color: #0000ff;
+        color: white;
+
+    }
+	.navbar {
+        background-color: #000080;
+        color: white;
+
+    }
+ 
+</style>
